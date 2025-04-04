@@ -1,15 +1,26 @@
-body {
-    background: #FFFF;
+* {
+    background-color:#FFFF ;
+    box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
+body {
+    /* padding: 30px; */
+     /* margin: calc(62.56px); */
 }
 
 .navbar {
-    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
 }
 
-ul {
+.nav-list {
+    display: flex;
+    gap: 20px;
     list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
 }
